@@ -3,6 +3,9 @@ body,
 .view {
     height: 100%;
 }
+#logo {float:left;height:30px;margin-right:8px;}
+
+a {outline:none;}
 
 .view {
     background: url("https://buildinthecloud.github.io/img/dark-cloud-above-the-waterfall.jpg")no-repeat center center fixed;
@@ -22,7 +25,7 @@ body,
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: #111;
 }
 
 .navbar-dark .navbar-nav .nav-link {
